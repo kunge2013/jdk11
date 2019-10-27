@@ -4,7 +4,6 @@ import java.net.Authenticator;
 import java.net.InetSocketAddress;
 import java.net.ProxySelector;
 import java.net.http.HttpClient;
-import java.net.http.HttpClient.Redirect;
 import java.net.http.HttpClient.Version;
 
 public class HttpCient {
