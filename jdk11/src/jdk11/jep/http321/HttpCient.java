@@ -13,5 +13,7 @@ public class HttpCient {
 	      .proxy(ProxySelector.of(new InetSocketAddress("www.baidu.com", 80)))
 	      .authenticator(Authenticator.getDefault())
 	      .build();
+		
+		client.executor();
 	}
 }
